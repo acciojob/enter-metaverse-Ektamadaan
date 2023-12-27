@@ -4,7 +4,7 @@ function getFormvalue() {
 	let input1 = document.getElementById("status");
 	let input2 = document.getElementById("enterBtn");
 
-	document.addEventListener("click" , function() {
+	input2.addEventListener("click" , function() {
 		input1.textContent = "Entered Metaverse";
 		input1.tagName = "h1";
 	})
