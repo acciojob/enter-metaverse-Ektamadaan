@@ -6,7 +6,10 @@ function getFormvalue() {
 
 	document.addEventListener("click" , function() {
 		input1.textContent = "Entered Metaverse";
-		input1.tagName = "h1";
+		var h1Element = document.createElement("h1");
+		h1Element.textContent = input1.textContent;
+
+		input1.parentNode.replaceChild(h1Element, input1);
 	})
 }
 
