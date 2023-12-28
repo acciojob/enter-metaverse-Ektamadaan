@@ -6,7 +6,7 @@ function getFormvalue() {
 
 	document.addEventListener("click" , function() {
 		input1.textContent = "Entered Metaverse";
-		var h1Element = document.createElement("h1");
+		var h1Element = document.createElement("H1");
 		h1Element.textContent = input1.textContent;
 
 	})
