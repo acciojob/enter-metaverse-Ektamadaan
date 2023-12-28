@@ -9,7 +9,6 @@ function getFormvalue() {
 		var h1Element = document.createElement("h1");
 		h1Element.textContent = input1.textContent;
 
-		input1.parentNode.replaceChild(h1Element, input1);
 	})
 }
 
